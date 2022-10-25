@@ -38,7 +38,7 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "@php -r \"fclose(fopen('database/database.sqlite', 'w'))\"",
+            "@php -r \"fclose(fopen('database/database.sqlite', 'w'));\"",
             "@php artisan optimize",
             "@php artisan migrate",
             "@php artisan db:seed"
