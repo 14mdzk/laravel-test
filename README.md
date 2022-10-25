@@ -8,7 +8,6 @@ by **Maulana Zain**
 ## System Requirements
 - PHP 8.1
 - Composer 2.3.4
-- NodeJS 16.18 (LTS)
 ## Run Locally
 Clone the repository or Extract laravel-test.zip file
 ```bash
