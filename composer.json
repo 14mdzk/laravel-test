@@ -41,7 +41,8 @@
             "@php -r \"fclose(fopen('database/database.sqlite', 'w'));\"",
             "@php artisan optimize",
             "@php artisan migrate",
-            "@php artisan db:seed"
+            "@php artisan db:seed",
+            "@php artisan jwt:secret"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
